@@ -41,6 +41,7 @@
                 <li><a href="#contact">Contancts</a></li>                    
             </ul>
         </nav>
+        
         <div class = "header-text">
             <p>BACKEND DEVELOPER</p>
             <h1>Hi, I'm <span>Qodirzoda Anushervon</span><br>from Innopolis University</h1>

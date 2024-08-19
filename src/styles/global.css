@@ -2,15 +2,27 @@ body {
     background-color: black; 
     position: static;
 }
-
 #header {
     width: 100%;
-    height: 110vh; 
-    background-image: url(/me.jpg);
-    background-size: 30% auto;
-    background-position: right center;
-    background-repeat: no-repeat;
+    height: 110vh;
     background-color: black;
+}
+
+/* Apply the background image only for larger screens (e.g., laptops) */
+@media (min-width: 768px) {
+    #header {
+        background-image: url(/me.jpg);
+        background-size: 30% auto;
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Optionally, you can add styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    #header {
+        /* No background image for mobile devices */
+    }
 }
 
 html {
