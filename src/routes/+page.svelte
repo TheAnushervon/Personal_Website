@@ -41,7 +41,7 @@
                 <li><a href="#contact">Contancts</a></li>                    
             </ul>
         </nav>
-        
+
         <div class = "header-text">
             <p>BACKEND DEVELOPER</p>
             <h1>Hi, I'm <span>Qodirzoda Anushervon</span><br>from Innopolis University</h1>
@@ -65,7 +65,7 @@
 </div>
 <div id = "portfolio">
     <div class="container">
-        <h1 class = "sub-title"> My Work</h1>
+        <h1 class = "sub-title"> My Projects</h1>
         <div class="work-list">
             <div class="work">
                 <nav class = "projects">
