@@ -1,38 +1,42 @@
-body{
-    background-color : black; 
+body {
+    background-color: black; 
     position: static;
 }
 
-#header{
+#header {
     width: 100%;
     height: 110vh; 
     background-image: url(/me.jpg);
-    background-size: 30% auto ;
+    background-size: 30% auto;
     background-position: right center;
     background-repeat: no-repeat;
-    background-color:  black;
+    background-color: black;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-h1{
+
+h1 {
     color: white; 
 }
 
 ul {
-    color :white; 
+    color: white; 
 }
+
 .container {
-    padding: 10px, 20%
+    padding: 10px 20%;
 }
+
 nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
     text-align: right;
-
 }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -40,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color : #fff; 
+    color: #fff; 
     text-decoration: none;
     font-size: 18px; 
     position: relative;
@@ -54,75 +58,80 @@ nav ul li a::after {
     position: absolute;
     left: 0;
     bottom: -6px; 
-    transition:0.5s;
+    transition: 0.5s;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
     width: 100%;
 }
+
 .header-text p {
     color: white;
-    font-size:40px; 
+    font-size: 40px; 
     font-weight: 600; 
     margin: 0;
-    
-    
 }
-.header-text{
-margin-top: 13%;
-font-size: 30px;
-padding-left: 60px
+
+.header-text {
+    margin-top: 13%;
+    font-size: 30px;
+    padding-left: 60px;
 }
-.header-text h1{
+
+.header-text h1 {
     font-size: 60px;
     margin-top: 20px;
 }
-.header-text h1 span{
+
+.header-text h1 span {
     color: #ff0000; 
 }
- /* -----------------about  */
 
- #about{
+/* About Section */
+
+#about {
     margin-top: 60px; 
     color: #ababab; 
     justify-content: center;
     flex-wrap: wrap;
- }
-#about .about-col-1{
-    margin-top: 50px ; 
-    margin-bottom: 200px;
-} 
-#about .sub-title{
-    margin-bottom: 50px;
-    margin-top: 150px 
 }
- #about .container .row .about-col-1 h1{
+
+#about .about-col-1 {
+    margin-top: 50px; 
+    margin-bottom: 200px;
+}
+
+#about .sub-title {
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+#about .container .row .about-col-1 h1 {
     text-align: center;
     font-size: 50px;
     color: red; 
- }
- 
- #about .container .row .about-col-1 p {
-    padding-left: 120px; 
-    color : white; 
-    font-size:30px; 
-    padding-right:120px; 
- }
-
- 
- /* ----------------Portfolio----------- */
-    
- #portfolio .container h1 {
-       text-align: center;
-       font-size: 50px;
-       color: red; 
-       padding-top: 1px
-   
-    }
-#portfolio {
-
-    margin-bottom:140px ; 
 }
+
+#about .container .row .about-col-1 p {
+    padding-left: 120px; 
+    color: white; 
+    font-size: 30px; 
+    padding-right: 120px; 
+}
+
+/* Portfolio Section */
+
+#portfolio .container h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red; 
+    padding-top: 1px;
+}
+
+#portfolio {
+    margin-bottom: 140px; 
+}
+
 #portfolio .container {
     display: flex;
     flex-direction: column;
@@ -161,39 +170,41 @@ padding-left: 60px
     font-size: 30px;
     text-align: center;
 }
-/* -----------------Contacts----------- */
+
+/* Contact Section */
+
 #contact .container .row .contact-left .sub-title {
     text-align: left;
     font-size: 50px; 
-    padding-left : 30px; 
+    padding-left: 30px; 
     margin-top: -6px; 
 }
 
 #contact .container {
-    color : white; 
+    color: white; 
 }
 
-#contact .container .row .contact-left .social-icons a{
-    font-size : 30px; 
-    margin-right : 15px ; 
+#contact .container .row .contact-left .social-icons a {
+    font-size: 30px; 
+    margin-right: 15px; 
 }
 
 .contact-left {
     flex-basis: 35%;
 }
 
-
 .contact-right {
     flex-basis: 60%;
 }
 
-.contact-left p{
+.contact-left p {
     margin-top: 40px;
-    margin-left: 30px ; 
+    margin-left: 30px; 
 }
+
 .contact-left p i {
     color: red;
-    margin-right: 15px ; 
+    margin-right: 15px; 
     font-size: 25px;
 }
 
@@ -201,18 +212,20 @@ padding-left: 60px
     margin-top: 30px;
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
-    margin-right: 10px ; 
-    margin-left: 30px ; 
+    margin-right: 10px; 
+    margin-left: 30px; 
     color: #ababab;
     display: inline-block;
     transition: transform 0.3s;
 }
-.social-icons a:hover{
-    color: red ; 
+
+.social-icons a:hover {
+    color: red; 
     transform: translateY(-6px);
 }
+
 .btn.btn2 {
     display: inline-block;
     background-color: red;
@@ -221,29 +234,32 @@ padding-left: 60px
     color: black; 
     cursor: pointer;
     border: none; 
-    margin-top: 20px ; 
+    margin-top: 20px; 
     margin-bottom: 40px;
 }
 
 .contact-right form {
-    width: 100%
+    width: 100%;
 }
-form input , form textarea{
+
+form input, form textarea {
     width: 90%; 
     border: 0; 
-    outline: none ; 
-    padding: 15px ; 
-    margin: 15px 0 ; 
-    color:#fff; 
+    outline: none; 
+    padding: 15px; 
+    margin: 15px 0; 
+    color: #fff; 
     background: #262526; 
     border-radius: 6px;
 }
+
 .row {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.copyright{
+
+.copyright {
     width: 100%; 
     text-align: center;
     padding: 20px 0;
@@ -251,8 +267,10 @@ form input , form textarea{
     font-weight: 300; 
     margin-top: 20px;
 }
-/* --------css for small screen  */
-/* Media queries for responsiveness */
+
+/* Media Queries for Responsiveness */
+
+/* Medium Screens */
 @media only screen and (max-width: 1200px) {
     nav ul li {
         margin: 10px 20px;
@@ -271,6 +289,7 @@ form input , form textarea{
     }
 }
 
+/* Small Screens */
 @media only screen and (max-width: 800px) {
     nav {
         justify-content: center;
@@ -294,6 +313,7 @@ form input , form textarea{
     }
 }
 
+/* Extra Small Screens */
 @media only screen and (max-width: 600px) {
     .container {
         padding: 10px;
@@ -328,7 +348,7 @@ form input , form textarea{
 }
 
 #msg {
-    color:#61b752; 
+    color: #61b752; 
     margin-top: -40px; 
     display: block;
 }
